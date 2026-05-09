@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Na'Shayla McIntosh</title>
+    <meta name="description" content="Project portfolio for Na'Shayla McIntosh, Computer Science major." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%23d6b15e'>NM</text></svg>" type="image/svg+xml" />
+    <meta property="og:title" content="Projects | Na'Shayla McIntosh" />
+    <meta property="og:description" content="Software engineering projects including Bridge2CS, Electronic Gradebook, and Fruit Catalog system." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-title">Na'Shayla McIntosh</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="involvement.html">Research & Professional Experience</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="toggle-theme" aria-label="Switch theme">☀</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <div class="section-head reveal">
+            <span class="kicker">Portfolio</span>
+            <h1 class="page-title">Highlighted <span>Projects</span></h1>
+            <p>
+              A curated selection of projects demonstrating full-stack development, database architecture, system design, and user-focused problem solving.
+            </p>
+          </div>
+
+          <article class="panel project-card reveal">
+            <div class="grid grid-2">
+              <div>
+                <span class="kicker">Featured Project</span>
+                <h2>Bridge2CS Recruitment Platform</h2>
+                <p>
+                  A full-featured web platform that streamlines student recruitment workflows. Automates application processing, manages candidate communication, and provides real-time engagement tracking for recruiters.
+                </p>
+                <p>
+                  <strong>Why It Matters:</strong> Transforms recruitment operations by reducing manual overhead and enabling data-driven outreach decisions. Handles end-to-end workflow from initial contact through final hiring decision.
+                </p>
+                <p class="project-meta"><strong>Stack:</strong> HTML, CSS, JavaScript</p>
+                <div>
+                  <strong>Key Highlights</strong>
+                  <ul>
+                    <li>Streamlined student application submission process</li>
+                    <li>Email verification and confirmation workflows</li>
+                    <li>Admin dashboard support for managing applicants</li>
+                    <li>Engagement and outreach tracking features</li>
+                    <li>Live web-based demo available</li>
+                  </ul>
+                </div>
+                <div class="project-links">
+                  <a class="btn btn-primary" href="https://bridge2cs.onrender.com/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a class="btn btn-secondary" href="https://github.com/NaShaylaM4/Bridge2CS" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+              <aside class="panel reveal">
+                <h3>Live Demo Preview</h3>
+                <p>
+                  Below is a live preview of the Bridge2CS recruitment platform demonstrating the user interface and application
+                  workflow.
+                </p>
+                <iframe
+                  src="https://bridge2cs.onrender.com/"
+                  width="100%"
+                  height="450"
+                  title="Live preview of the Bridge2CS recruitment platform"
+                ></iframe>
+              </aside>
+            </div>
+          </article>
+
+          <div class="grid">
+            <article class="project-card reveal">
+              <h2>Electronic Gradebook System (GUI Application)</h2>
+              <p>
+                Built a desktop-based grade management system using Python, SQLite, and Tkinter to help teachers manage multiple
+                classes, organize assignments, track student performance, and monitor academic progress more efficiently.
+              </p>
+              <p class="project-meta"><strong>Technologies:</strong> Python, SQLite, Tkinter</p>
+              <div>
+                <strong>Key Features</strong>
+                <ul>
+                  <li>Multi-class management supporting 150+ students</li>
+                  <li>Assignment creation, grade entry, and record updates</li>
+                  <li>Real-time progress reports and performance tracking</li>
+                  <li>Identification of struggling students based on performance thresholds</li>
+                </ul>
+              </div>
+              <p>
+                <strong>Impact:</strong> Strengthened my skills in database design, GUI development, and building user-focused
+                applications that organize and analyze student data efficiently.
+              </p>
+              <div class="project-links">
+                <a class="btn btn-secondary" href="https://github.com/NaShaylaM4/Electronic-Grade-Book" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <a class="btn btn-secondary" href="#gradebook-details">View Details</a>
+              </div>
+            </article>
+
+            <article class="project-card reveal">
+              <h2>Fruit Catalog Database System</h2>
+              <p>
+                Developed a database-driven application using Python and SQLite to store, manage, and validate fruit inventory data
+                through a structured schema and user interface.
+              </p>
+              <p class="project-meta"><strong>Technologies:</strong> Python, SQLite</p>
+              <div>
+                <strong>Key Features</strong>
+                <ul>
+                  <li>Custom schema with constraints such as PRIMARY KEY, UNIQUE, and CHECK</li>
+                  <li>Data validation and categorization for consistent record management</li>
+                  <li>Query-based data retrieval and full CRUD operations</li>
+                  <li>Structured organization of fruit details such as category, origin, pricing, and stock status</li>
+                </ul>
+              </div>
+              <p>
+                <strong>Impact:</strong> Gained hands-on experience in relational database design, data validation, schema
+                development, and integrating Python with SQLite to build practical data management solutions.
+              </p>
+              <div class="project-links">
+                <a class="btn btn-secondary" href="https://github.com/NaShaylaM4/SQLite-Fruit-Catalog-App" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
+                <a class="btn btn-secondary" href="#fruit-details">View Details</a>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="gradebook-details">
+        <div class="container">
+          <article class="panel reveal">
+            <h2>Electronic Gradebook System - Project Details</h2>
+            <p>
+              This project is a desktop GUI application built with Python, SQLite, and Tkinter to support efficient class and
+              student performance management.
+            </p>
+            <ul>
+              <li>Multi-class management (150+ students)</li>
+              <li>Assignment tracking and grading system</li>
+              <li>Real-time progress reports</li>
+              <li>Identification of struggling students</li>
+            </ul>
+            <img src="assets/images/gradebook-placeholder.jpg" alt="Electronic Gradebook System screenshot placeholder" />
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="fruit-details">
+        <div class="container">
+          <article class="panel reveal">
+            <h2>Fruit Catalog Database System - Project Details</h2>
+            <p>
+              This project is a database-driven application using Python and SQLite to store, validate, and retrieve categorized
+              fruit data.
+            </p>
+            <ul>
+              <li>Custom schema with constraints</li>
+              <li>Data validation and categorization</li>
+              <li>Query-based data retrieval</li>
+            </ul>
+            <img src="assets/images/fruit-placeholder.jpg" alt="Fruit Catalog Database System screenshot placeholder" />
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <button class="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Na'Shayla McIntosh</p>
+        <p>Project details crafted for technical interviews and internship applications.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

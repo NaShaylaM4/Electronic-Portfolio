@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume | Na'Shayla McIntosh</title>
+    <meta name="description" content="Resume page for Na'Shayla McIntosh with embedded preview and downloadable PDF." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%23d6b15e'>NM</text></svg>" type="image/svg+xml" />
+    <meta property="og:title" content="Resume | Na'Shayla McIntosh" />
+    <meta property="og:description" content="Professional resume and CV for Na'Shayla McIntosh." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-title">Na'Shayla McIntosh</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="involvement.html">Research & Professional Experience</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="toggle-theme" aria-label="Switch theme">☀</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container grid">
+          <article class="panel reveal">
+            <span class="kicker">Resume</span>
+            <h1 class="page-title">Professional <span>Resume</span></h1>
+            <p>Complete overview of my technical expertise, education, full-stack projects, and professional experience. Ready to contribute immediately to software engineering teams.</p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="assets/resume/NaShayla_McIntosh_Resume.pdf" download>Download Resume (PDF)</a>
+              <a class="btn btn-secondary" href="assets/resume/NaShayla_McIntosh_Resume.pdf" target="_blank" rel="noopener noreferrer"
+                >Open in New Tab</a
+              >
+            </div>
+          </article>
+
+          <section class="resume-preview reveal" aria-label="Embedded resume preview">
+            <iframe
+              src="assets/resume/NaShayla_McIntosh_Resume.pdf"
+              title="Na'Shayla McIntosh Resume Preview"
+            ></iframe>
+          </section>
+
+          <article class="panel reveal">
+            <h2>Resume Overview</h2>
+            <p>
+              This resume provides a concise overview of my academic background, technical skills, project experience, leadership
+              involvement, and professional development as a Computer Science student preparing for software engineering opportunities.
+            </p>
+            <p>
+              For convenience, the resume can be viewed directly on this page or downloaded as a PDF for sharing with recruiters,
+              hiring managers, and professional contacts.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <button class="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Na'Shayla McIntosh</p>
+        <p>Resume page designed for fast recruiter access.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

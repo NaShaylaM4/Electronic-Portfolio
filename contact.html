@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Na'Shayla McIntosh</title>
+    <meta name="description" content="Contact details for Na'Shayla McIntosh including email, GitHub, and LinkedIn." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%23d6b15e'>NM</text></svg>" type="image/svg+xml" />
+    <meta property="og:title" content="Contact | Na'Shayla McIntosh" />
+    <meta property="og:description" content="Get in touch with Na'Shayla McIntosh for internship opportunities and collaboration." />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html" aria-label="Home">
+          <span class="brand-title">Na'Shayla McIntosh</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Primary navigation">
+          <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="involvement.html">Research & Professional Experience</a></li>
+            <li><a href="leadership.html">Leadership</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button class="toggle-theme" aria-label="Switch theme">☀</button>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container grid grid-2">
+          <article class="panel reveal">
+            <span class="kicker">Contact</span>
+            <h1 class="page-title">Get In <span>Touch</span></h1>
+            <p class="lead">
+              I'm actively looking for software engineering opportunities. Let's connect—whether it's about my work, potential projects, or career opportunities.
+            </p>
+            <p>I respond to all professional inquiries within 24–48 hours.</p>
+
+            <div class="contact-list">
+              <div class="contact-item"><strong>Email:</strong> <a href="mailto:nashayla041@icloud.com">nashayla041@icloud.com</a></div>
+              <div class="contact-item">
+                <strong>GitHub:</strong>
+                <a href="https://github.com/NaShaylaM4" target="_blank" rel="noopener noreferrer">NaShaylaM4 (Na'Shayla McIntosh)</a>
+              </div>
+              <div class="contact-item">
+                <strong>LinkedIn:</strong>
+                <a href="https://www.linkedin.com/in/na-shayla-mcintosh-8b3835264" target="_blank" rel="noopener noreferrer"
+                  >na-shayla-mcintosh-8b3835264</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <section class="panel reveal">
+            <h2>Send Me a Message</h2>
+            <p class="project-meta">
+              Fill out the form below to send me a message directly. I'll get back to you as soon as possible.
+            </p>
+
+            <form class="form-grid contact-form" action="#" method="post">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" placeholder="Your full name" required />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" placeholder="you@example.com" required />
+              </div>
+              <div>
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="What would you like to discuss?" required />
+              </div>
+              <div>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Share your message here..." required></textarea>
+              </div>
+              <button class="btn btn-primary" type="submit">Send Message</button>
+              <p class="form-status project-meta" aria-live="polite"></p>
+            </form>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <button class="scroll-to-top" aria-label="Scroll to top">↑</button>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© <span id="year"></span> Na'Shayla McIntosh</p>
+        <p>Available for software engineering opportunities.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
